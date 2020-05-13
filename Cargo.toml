@@ -100,7 +100,8 @@ verify-winapi = [
   'winapi/winnt',
 ]
 rustc-dep-of-std = [
-  'backtrace-sys/rustc-dep-of-std',
+  'addr2line/rustc-dep-of-std',
+  'object/rustc-dep-of-std',
   'cfg-if/rustc-dep-of-std',
   'core',
   'compiler_builtins',
